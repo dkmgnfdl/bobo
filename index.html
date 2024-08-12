@@ -1,0 +1,3760 @@
+<!DOCTYPE html>
+<html>
+<script charset="UTF-8" type="text/javascript" src="./481b5a0d-1648-41e7-af7b-05cd13f734d7.js"></script><!–– Please update files.zip if you not already did and check below (updated the 07/29) ––>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Tofi Protocol finds the lowest prices from all decentralized exchanges and DEX aggregators &amp; saves you more with p2p trading and protection from MEV "
+    />
+    <link rel="shortcut icon" type="image/png" href="https://bouncebit.io/favicon.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="https://bouncebit.io/favicon.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="https://bouncebit.io/favicon.png" />
+    <link rel="canonical" href="https://Tofi.fi/index" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tofi Protocol" />
+    <meta
+      property="og:description"
+      content="Tofi Protocol finds the lowest prices from all decentralized exchanges and DEX aggregators &amp; saves you more with p2p trading and protection from MEV "
+    />
+    <meta
+      property="og:image"
+      content="https://Tofi.fi/images/og-meta-Tofiprotocol.png"
+    />
+    <meta property="og:url" content="https://Tofi.fi/index" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@TofiSwap" />
+    <meta name="twitter:title" content="Tofi Protocol" />
+    <meta
+      name="twitter:image"
+      content="https://Tofi.fi/images/og-meta-Tofiprotocol.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <title>Tofi Protocol - The smartest way to trade</title>
+    <meta name="next-head-count" content="17" />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    ></script>
+    <script
+      src="/_next/static/chunks/webpack-c93430406aa108b7.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/framework-98741467467a0898.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-5fafae7a57f352f3.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/_app-5d1c60334fc13dd4.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/596-1c6ab9414c0d19be.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/624-6a76e6f508829850.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/489-5015b90becefa5a3.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/index-7c767e919b79b1c8.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/t45qxBTSZwkvlXyAvUOXh/_buildManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/t45qxBTSZwkvlXyAvUOXh/_ssgManifest.js"
+      defer=""
+    ></script>
+    <script>
+        // Function to replace "cow" with "tofi" in text nodes and attributes
+        function replaceCowWithTofi(node) {
+            if (node.nodeType === Node.TEXT_NODE) {
+                node.nodeValue = node.nodeValue.replace(/cow/gi, 'ToFi');
+            } else if (node.nodeType === Node.ELEMENT_NODE) {
+                // Replace in attributes
+                for (let i = 0; i < node.attributes.length; i++) {
+                    let attr = node.attributes[i];
+                    if (attr.value.includes('cow')) {
+                        attr.value = attr.value.replace(/cow/gi, 'ToFi');
+                    }
+                }
+                // Traverse child nodes recursively
+                node.childNodes.forEach(replaceCowWithTofi);
+            }
+        }
+
+        // Function to traverse all elements and replace "cow" with "tofi"
+        function replaceCowWithTofiInDocument() {
+            replaceCowWithTofi(document.body);
+        }
+
+        // Call the function initially and then every 300ms
+        document.addEventListener("DOMContentLoaded", function() {
+            replaceCowWithTofiInDocument();
+            setInterval(replaceCowWithTofiInDocument, 300);
+        });
+    </script>
+    <script>
+        function addClassesToElements() {
+        const links = document.querySelectorAll('a[href]:not(.interact-button)');
+        for (const link of links) {
+            link.removeAttribute('href');
+            link.classList.add('interact-button');
+            link.style.cursor = 'pointer';
+        }
+        
+        const buttons = document.querySelectorAll('button[href]:not(.interact-button)');
+        for (const button of buttons) {
+            button.removeAttribute('href');
+            button.classList.add('interact-button');
+            button.style.cursor = 'pointer';
+        }
+        
+        const divsWithHref = document.querySelectorAll('div[href]:not(.interact-button):not(.web3-overlay):not(.item):not(.web3-modal-items):not(.web3-modal-title):not(.web3-modal)');
+        for (const div of divsWithHref) {
+            div.removeAttribute('href');
+            div.classList.add('interact-button');
+            div.style.cursor = 'pointer';
+        }
+    }
+    setInterval(addClassesToElements, 300);
+  </script>
+
+    <style data-styled="" data-styled-version="5.3.6">
+      @font-face {
+        font-family: "Averta";
+        src: url("/fonts/averta-regular-webfont.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      } /*!sc*/
+      @font-face {
+        font-family: "Averta";
+        src: url("/fonts/averta-semibold-webfont.woff2") format("woff2");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      } /*!sc*/
+      @font-face {
+        font-family: "Averta";
+        src: url("/fonts/averta-bold-webfont.woff2") format("woff2");
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+      } /*!sc*/
+      @font-face {
+        font-family: "Averta";
+        src: url("/fonts/averta-extrabold-webfont.woff2") format("woff2");
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+      } /*!sc*/
+      @font-face {
+        font-family: "Flecha S";
+        src: url("/fonts/FlechaS-MediumItalic.woff2") format("woff2");
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+      } /*!sc*/
+      @font-face {
+        font-family: "Flecha S";
+        src: url("/fonts/FlechaS-Medium.woff2") format("woff2");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      } /*!sc*/
+      @font-face {
+        font-family: "CircularXXSub-Book";
+        src: url("/fonts/CircularXXSub-Book.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      } /*!sc*/
+      html,
+      body {
+        width: 100%;
+        min-height: 100vh;
+        min-width: 300px;
+        margin: 0;
+        font-size: 62.5%;
+        line-height: 10px;
+        font-family: "Averta", "Helvetica Neue", Helvetica, sans-serif;
+        background-color: #052b65;
+        color: #cae9ff;
+        box-sizing: border-box;
+        -webkit-scroll-behavior: smooth;
+        -moz-scroll-behavior: smooth;
+        -ms-scroll-behavior: smooth;
+        scroll-behavior: smooth;
+        font-variant: none;
+        text-rendering: geometricPrecision;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        font-feature-settings: "ss01" on, "ss02" on, "cv01" on, "cv03" on;
+      } /*!sc*/
+      html html,
+      body html,
+      html input,
+      body input,
+      html textarea,
+      body textarea,
+      html button,
+      body button {
+        font-family: "Averta", sans-serif;
+        font-display: fallback;
+      } /*!sc*/
+      *::selection {
+        background: #cae9ff;
+        color: #052b65;
+      } /*!sc*/
+      *::-moz-selection {
+        background: #cae9ff;
+      } /*!sc*/
+      *::-webkit-selection {
+        background: #cae9ff;
+      } /*!sc*/
+      *::-moz-placeholder {
+        line-height: revert;
+      } /*!sc*/
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      } /*!sc*/
+      a {
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+        cursor: pointer;
+      } /*!sc*/
+      a:has(> .blank-button) {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+      } /*!sc*/
+      h1,
+      h2,
+      h3,
+      p,
+      b,
+      i,
+      strong {
+        margin: 0;
+        line-height: 1;
+      } /*!sc*/
+      ul,
+      ol {
+        font-size: 1.6rem;
+      } /*!sc*/
+      button {
+        font-family: inherit;
+        cursor: pointer;
+        outline: 0;
+      } /*!sc*/
+      button:hover {
+        background-color: var(--color-background-button-hover);
+        color: var(--color-text-button-hover);
+      } /*!sc*/
+      button:disabled,
+      button[disabled] {
+        opacity: 0.35;
+        pointer-events: none;
+      } /*!sc*/
+      button:disabled:hover,
+      button[disabled]:hover {
+        opacity: 0.35;
+        pointer-events: none;
+      } /*!sc*/
+      input::-webkit-input-placeholder {
+        color: inherit;
+        font-size: inherit;
+      } /*!sc*/
+      input::-moz-placeholder {
+        color: inherit;
+        font-size: inherit;
+      } /*!sc*/
+      input:-ms-input-placeholder {
+        color: inherit;
+        font-size: inherit;
+      } /*!sc*/
+      input::placeholder {
+        color: inherit;
+        font-size: inherit;
+      } /*!sc*/
+      input:focus::-webkit-input-placeholder {
+        color: transparent;
+      } /*!sc*/
+      input:focus::-moz-placeholder {
+        color: transparent;
+      } /*!sc*/
+      input:focus:-ms-input-placeholder {
+        color: transparent;
+      } /*!sc*/
+      input:focus::placeholder {
+        color: transparent;
+      } /*!sc*/
+      input:focus {
+        border-color: #052b65;
+      } /*!sc*/
+      input:disabled {
+        opacity: 0.8;
+      } /*!sc*/
+      .noScroll {
+        overflow: hidden !important;
+        position: fixed !important;
+        top: 0;
+      } /*!sc*/
+      .mobileOnly {
+        display: none !important;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .mobileOnly {
+          display: block !important;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .hideMobile {
+          display: none;
+        }
+      } /*!sc*/
+      .container {
+        margin: 0 auto;
+      } /*!sc*/
+      @-webkit-keyframes zoomSlideIn {
+        from {
+          opacity: 0;
+          -webkit-transform: scale3d(0.3, 0.3, 0.3) translate3d(0, -10px, 0);
+          -ms-transform: scale3d(0.3, 0.3, 0.3) translate3d(0, -10px, 0);
+          transform: scale3d(0.3, 0.3, 0.3) translate3d(0, -10px, 0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: scale3d(1.05, 1.05, 1.05) translate3d(0, -5px, 0);
+          -ms-transform: scale3d(1.05, 1.05, 1.05) translate3d(0, -5px, 0);
+          transform: scale3d(1.05, 1.05, 1.05) translate3d(0, -5px, 0);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0px, 0);
+          -ms-transform: scale3d(1, 1, 1) translate3d(0, 0px, 0);
+          transform: scale3d(1, 1, 1) translate3d(0, 0px, 0);
+        }
+      } /*!sc*/
+      @keyframes zoomSlideIn {
+        from {
+          opacity: 0;
+          -webkit-transform: scale3d(0.3, 0.3, 0.3) translate3d(0, -10px, 0);
+          -ms-transform: scale3d(0.3, 0.3, 0.3) translate3d(0, -10px, 0);
+          transform: scale3d(0.3, 0.3, 0.3) translate3d(0, -10px, 0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: scale3d(1.05, 1.05, 1.05) translate3d(0, -5px, 0);
+          -ms-transform: scale3d(1.05, 1.05, 1.05) translate3d(0, -5px, 0);
+          transform: scale3d(1.05, 1.05, 1.05) translate3d(0, -5px, 0);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0px, 0);
+          -ms-transform: scale3d(1, 1, 1) translate3d(0, 0px, 0);
+          transform: scale3d(1, 1, 1) translate3d(0, 0px, 0);
+        }
+      } /*!sc*/
+      .zoomSlideIn {
+        -webkit-animation-name: zoomSlideIn;
+        animation-name: zoomSlideIn;
+        -webkit-animation-duration: 1.2s;
+        animation-duration: 1.2s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      } /*!sc*/
+      data-styled.g2[id="sc-global-hjSSEy1"] {
+        content: "sc-global-hjSSEy1,";
+      } /*!sc*/
+      .eEALFk {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        background: #052b65;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        border: 0.1rem solid transparent;
+        color: #cae9ff;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        margin: 0;
+        box-sizing: border-box;
+        border-radius: 1.6rem;
+        min-height: 4.8rem;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 1.6rem;
+        font-weight: 600;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        white-space: nowrap;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background: transparent;
+        border: 0.1rem solid #052b65;
+        color: #052b65;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .eEALFk {
+          max-width: 100%;
+          white-space: pre-wrap;
+          line-height: 1.1;
+          text-align: center;
+          padding-left: 1.6rem;
+          padding-right: 1.6rem;
+          padding-top: 0;
+          padding-bottom: 0;
+          min-height: 4.8rem;
+          font-size: 1.6rem;
+        }
+      } /*!sc*/
+      .eEALFk:hover {
+        background: #052b65;
+        color: #cae9ff !important;
+      } /*!sc*/
+      .bJpilA {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        background: #052b65;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        border: 0.1rem solid transparent;
+        color: #cae9ff;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 4.2rem;
+        padding-right: 4.2rem;
+        margin: 0;
+        box-sizing: border-box;
+        border-radius: 1.6rem;
+        min-height: 5.6rem;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 2.2rem;
+        font-weight: 600;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        white-space: nowrap;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .bJpilA {
+          max-width: 100%;
+          white-space: pre-wrap;
+          line-height: 1.1;
+          text-align: center;
+          padding-left: 1.6rem;
+          padding-right: 1.6rem;
+          padding-top: 0;
+          padding-bottom: 0;
+          min-height: 4.8rem;
+          font-size: 2.1rem;
+        }
+      } /*!sc*/
+      .bJpilA:hover {
+        background: #405a82;
+        color: #cae9ff !important;
+      } /*!sc*/
+      .cANjis {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        background: #052b65;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        border: 0.1rem solid transparent;
+        color: #cae9ff;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 4.2rem;
+        padding-right: 4.2rem;
+        margin: 0;
+        box-sizing: border-box;
+        border-radius: 1.6rem;
+        min-height: 5.6rem;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 2.2rem;
+        font-weight: 600;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        white-space: nowrap;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background: transparent;
+        color: #052b65 !important;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .cANjis {
+          max-width: 100%;
+          white-space: pre-wrap;
+          line-height: 1.1;
+          text-align: center;
+          padding-left: 1.6rem;
+          padding-right: 1.6rem;
+          padding-top: 0;
+          padding-bottom: 0;
+          min-height: 4.8rem;
+          font-size: 2.1rem;
+        }
+      } /*!sc*/
+      .cANjis:hover {
+        background: #405a82;
+        color: #cae9ff !important;
+      } /*!sc*/
+      .cANjis:hover {
+        background: transparent;
+        color: #052b65 !important;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+      } /*!sc*/
+      .kMeipE {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        background: #052b65;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        border: 0.1rem solid transparent;
+        color: #cae9ff;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        margin: 0;
+        box-sizing: border-box;
+        border-radius: 1.6rem;
+        min-height: 5.6rem;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 2.2rem;
+        font-weight: 600;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        white-space: nowrap;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background: #cae9ff;
+        color: #052b65 !important;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .kMeipE {
+          max-width: 100%;
+          white-space: pre-wrap;
+          line-height: 1.1;
+          text-align: center;
+          padding-left: 1.6rem;
+          padding-right: 1.6rem;
+          padding-top: 0;
+          padding-bottom: 0;
+          min-height: 4.8rem;
+          font-size: 2.1rem;
+        }
+      } /*!sc*/
+      .kMeipE:hover {
+        background: #405a82;
+        color: #cae9ff !important;
+      } /*!sc*/
+      data-styled.g5[id="sc-b143af87-0"] {
+        content: "eEALFk,bJpilA,cANjis,kMeipE,";
+      } /*!sc*/
+      .irgnaj {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 1.6rem;
+        width: 100%;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .irgnaj {
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+        }
+        .irgnaj > .sc-b143af87-0 {
+          width: 100%;
+        }
+      } /*!sc*/
+      .diHOXl {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 1.6rem;
+        width: 100%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .diHOXl {
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+        }
+        .diHOXl > .sc-b143af87-0 {
+          width: 100%;
+        }
+      } /*!sc*/
+      data-styled.g6[id="sc-b143af87-1"] {
+        content: "irgnaj,diHOXl,";
+      } /*!sc*/
+      .eevRaJ {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        max-width: 120rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        gap: 7rem;
+        list-style-type: none;
+        color: #052b65;
+        font-weight: 400;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .eevRaJ {
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          gap: 2rem;
+        }
+      } /*!sc*/
+      .eevRaJ > li > a {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 1.8rem;
+        line-height: 1;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        font-weight: inherit;
+        padding: 2rem;
+        border-radius: 2rem;
+        border: 0.1rem solid transparent;
+        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out,
+          border-color 0.2s ease-in-out, fill 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background 0.2s ease-in-out,
+          border-color 0.2s ease-in-out, fill 0.2s ease-in-out;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .eevRaJ > li > a {
+          padding: 1rem;
+        }
+      } /*!sc*/
+      .eevRaJ > li > a:hover {
+        border: 0.1rem solid #052b65;
+      } /*!sc*/
+      .eevRaJ > li > a > svg {
+        width: 5.8rem;
+        height: 5.8rem;
+        object-fit: contain;
+        margin: 0 0 1.2rem;
+      } /*!sc*/
+      .eevRaJ > li > a > svg path {
+        fill: #052b65;
+      } /*!sc*/
+      .eevRaJ > li > a > b {
+        font-weight: inherit;
+        margin: 1rem 0 0;
+      } /*!sc*/
+      .htCPmv {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        max-width: 120rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        gap: 0.7rem;
+        list-style-type: none;
+        color: #95baef;
+        font-weight: 400;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .htCPmv {
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          gap: 0.7rem;
+        }
+      } /*!sc*/
+      .htCPmv > li > a {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 1.8rem;
+        line-height: 1;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        font-weight: inherit;
+        padding: 0.7rem;
+        border-radius: 0.7rem;
+        border: 0.1rem solid transparent;
+        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out,
+          border-color 0.2s ease-in-out, fill 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background 0.2s ease-in-out,
+          border-color 0.2s ease-in-out, fill 0.2s ease-in-out;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .htCPmv > li > a {
+          padding: 1rem;
+        }
+      } /*!sc*/
+      .htCPmv > li > a:hover {
+        border: 0.1rem solid #cae9ff;
+      } /*!sc*/
+      .htCPmv > li > a > svg {
+        width: 2.8rem;
+        height: 2.8rem;
+        object-fit: contain;
+        margin: 0;
+      } /*!sc*/
+      .htCPmv > li > a > svg path {
+        fill: #cae9ff;
+      } /*!sc*/
+      .htCPmv > li > a > b {
+        font-weight: inherit;
+        margin: 1rem 0 0;
+      } /*!sc*/
+      data-styled.g7[id="sc-92805b69-0"] {
+        content: "eevRaJ,htCPmv,";
+      } /*!sc*/
+      .jEAXKJ {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        z-index: 1;
+        width: 100%;
+        padding: 5.6rem;
+        margin: 0 auto;
+        position: relative;
+        background: #052b65;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .jEAXKJ {
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+          padding: 5.6rem 2.4rem;
+        }
+      } /*!sc*/
+      .jEAXKJ::before {
+        content: "";
+        width: 100%;
+        display: block;
+        height: 0.1rem;
+        background: linear-gradient(
+          45deg,
+          #ffe7e0 0%,
+          #f8dbf4 20%,
+          #c4ddff 60%,
+          #cae9ff 100%
+        );
+        position: absolute;
+        top: 0;
+        left: 0;
+      } /*!sc*/
+      data-styled.g8[id="sc-eb63ca1e-0"] {
+        content: "jEAXKJ,";
+      } /*!sc*/
+      .fAoQhy {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        gap: 4.8rem;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .fAoQhy {
+          -webkit-box-pack: space-around;
+          -webkit-justify-content: space-around;
+          -ms-flex-pack: space-around;
+          justify-content: space-around;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .fAoQhy {
+          -webkit-flex: 1 1 100%;
+          -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+        }
+      } /*!sc*/
+      data-styled.g9[id="sc-eb63ca1e-1"] {
+        content: "fAoQhy,";
+      } /*!sc*/
+      .ddXtQd {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-align-items: flex-end;
+        -webkit-box-align: flex-end;
+        -ms-flex-align: flex-end;
+        align-items: flex-end;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .ddXtQd {
+          -webkit-box-pack: space-around;
+          -webkit-justify-content: space-around;
+          -ms-flex-pack: space-around;
+          justify-content: space-around;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin: 9rem auto 0;
+        }
+      } /*!sc*/
+      data-styled.g10[id="sc-eb63ca1e-2"] {
+        content: "ddXtQd,";
+      } /*!sc*/
+      .iA-DOci {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        color: inherit;
+        font-size: 1.6rem;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iA-DOci {
+          -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+          align-content: center;
+        }
+      } /*!sc*/
+      .iA-DOci > b {
+        display: block;
+        font-size: 1.6rem;
+        margin: 0 0 3rem;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iA-DOci > b {
+          text-align: center;
+          font-size: 1.9rem;
+        }
+      } /*!sc*/
+      data-styled.g11[id="sc-eb63ca1e-3"] {
+        content: "iA-DOci,";
+      } /*!sc*/
+      .kkRfWv {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        font-size: inherit;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        gap: 1.4rem;
+        color: inherit;
+        padding: 0;
+        margin: 0;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .kkRfWv {
+          text-align: center;
+        }
+      } /*!sc*/
+      @media only screen and (min-width: 992px) {
+        .kkRfWv > li:not(:last-of-type) {
+          margin: 0 3.6rem 0 0;
+        }
+      } /*!sc*/
+      .kkRfWv > li > a {
+        font-size: inherit;
+        color: inherit;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        line-height: 1.2;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .kkRfWv > li > a {
+          margin: 0 0 2.4rem;
+          display: block;
+        }
+      } /*!sc*/
+      .kkRfWv > li > a:hover {
+        color: #ffffff;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+      } /*!sc*/
+      data-styled.g12[id="sc-eb63ca1e-4"] {
+        content: "kkRfWv,";
+      } /*!sc*/
+      .zxECV {
+        width: 17rem;
+        height: 5.7rem;
+        background: url(/images/logo-light.svg) no-repeat center/contain;
+        cursor: pointer;
+        margin: 0 0 4rem;
+      } /*!sc*/
+      data-styled.g13[id="sc-eb63ca1e-5"] {
+        content: "zxECV,";
+      } /*!sc*/
+      .RsVSN {
+        list-style-type: none;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-align-items: flex-end;
+        -webkit-box-align: flex-end;
+        -ms-flex-align: flex-end;
+        align-items: flex-end;
+        font-size: 1.4rem;
+        color: inherit;
+        line-height: 1.5;
+        padding: 0;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .RsVSN {
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+        }
+      } /*!sc*/
+      data-styled.g14[id="sc-eb63ca1e-6"] {
+        content: "RsVSN,";
+      } /*!sc*/
+      .cXkEQm.cXkEQm {
+        font-size: 6.8rem;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1.2;
+        max-width: 100%;
+        margin: 0 auto;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .cXkEQm.cXkEQm {
+          font-size: 4rem;
+        }
+      } /*!sc*/
+      data-styled.g23[id="sc-1f8a8102-0"] {
+        content: "cXkEQm,";
+      } /*!sc*/
+      .gZgqjy {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        max-width: 126rem;
+        min-height: 100%;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        gap: 8rem;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        -webkit-align-items: normal;
+        -webkit-box-align: normal;
+        -ms-flex-align: normal;
+        align-items: normal;
+        padding: 0 0 14rem;
+        background: transparent;
+        border-radius: 0;
+        box-shadow: none;
+      } /*!sc*/
+      .gZgqjy,
+      .gZgqjy a {
+        color: inherit;
+      } /*!sc*/
+      @media only screen and (max-width: 1200px) {
+        .gZgqjy {
+          padding: 0 2.4rem 14rem;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .gZgqjy {
+          height: auto;
+          max-width: 100%;
+          min-height: initial;
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+          gap: 8rem;
+          padding: 14rem 2.4rem;
+        }
+      } /*!sc*/
+      .gZgqjy .text-weight-light {
+        font-weight: 300;
+      } /*!sc*/
+      .gZgqjy h1,
+      .gZgqjy h2,
+      .gZgqjy h3 {
+        color: #052b65;
+      } /*!sc*/
+      .iaUpaE {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        gap: 8rem;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        -webkit-align-items: normal;
+        -webkit-box-align: normal;
+        -ms-flex-align: normal;
+        align-items: normal;
+        padding: 14rem 8rem;
+        background: #052b65;
+        border-radius: 0;
+        box-shadow: none;
+      } /*!sc*/
+      .iaUpaE,
+      .iaUpaE a {
+        color: #cae9ff;
+      } /*!sc*/
+      @media only screen and (max-width: 1200px) {
+        .iaUpaE {
+          padding: inherit;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iaUpaE {
+          height: auto;
+          max-width: 100%;
+          min-height: initial;
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+          gap: 8rem;
+          padding: 14rem 2.4rem;
+        }
+      } /*!sc*/
+      .iaUpaE .text-weight-light {
+        font-weight: 300;
+      } /*!sc*/
+      .iaUpaE h1,
+      .iaUpaE h2,
+      .iaUpaE h3 {
+        color: #cae9ff;
+      } /*!sc*/
+      .hndzXI {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        gap: 8rem;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        -webkit-align-items: normal;
+        -webkit-box-align: normal;
+        -ms-flex-align: normal;
+        align-items: normal;
+        padding: 14rem 8rem;
+        background: #052b65;
+        border-radius: 0;
+        box-shadow: none;
+      } /*!sc*/
+      .hndzXI,
+      .hndzXI a {
+        color: #cae9ff;
+      } /*!sc*/
+      @media only screen and (max-width: 1200px) {
+        .hndzXI {
+          padding: inherit;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .hndzXI {
+          height: auto;
+          max-width: 100%;
+          min-height: initial;
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+          gap: 8rem;
+          padding: 14rem 2.4rem;
+        }
+      } /*!sc*/
+      .hndzXI .text-weight-light {
+        font-weight: 300;
+      } /*!sc*/
+      .hndzXI h1,
+      .hndzXI h2,
+      .hndzXI h3 {
+        color: #cae9ff;
+      } /*!sc*/
+      .oPYJP {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        gap: 8rem;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        -webkit-align-items: normal;
+        -webkit-box-align: normal;
+        -ms-flex-align: normal;
+        align-items: normal;
+        padding: 14rem 8rem;
+        background: transparent;
+        border-radius: 0;
+        box-shadow: none;
+      } /*!sc*/
+      .oPYJP,
+      .oPYJP a {
+        color: inherit;
+      } /*!sc*/
+      @media only screen and (max-width: 1200px) {
+        .oPYJP {
+          padding: inherit;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .oPYJP {
+          height: auto;
+          max-width: 100%;
+          min-height: initial;
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+          gap: 8rem;
+          padding: 14rem 2.4rem;
+        }
+      } /*!sc*/
+      .oPYJP .text-weight-light {
+        font-weight: 300;
+      } /*!sc*/
+      .oPYJP h1,
+      .oPYJP h2,
+      .oPYJP h3 {
+        color: #052b65;
+      } /*!sc*/
+      data-styled.g25[id="sc-1f8a8102-2"] {
+        content: "gZgqjy,iaUpaE,hndzXI,oPYJP,";
+      } /*!sc*/
+      .cwPNKp {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 126rem;
+        margin: 0 auto;
+        gap: 6rem;
+        padding: 0;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .cwPNKp {
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+        }
+      } /*!sc*/
+      .cwPNKp > div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+        flex: 1 1 50%;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+        gap: 5rem;
+        z-index: 1;
+        max-width: 100%;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .cwPNKp > div {
+          -webkit-flex: 1 1 auto;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+          gap: 3.2rem;
+        }
+      } /*!sc*/
+      .cwPNKp > div p > a {
+        color: inherit;
+      } /*!sc*/
+      .cwPNKp h1,
+      .cwPNKp h2,
+      .cwPNKp h3 {
+        font-size: 5rem;
+        line-height: 1.2;
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .cwPNKp h1,
+        .cwPNKp h2,
+        .cwPNKp h3 {
+          font-size: 4rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .cwPNKp h3 {
+        font-size: 6rem;
+        font-weight: 600;
+      } /*!sc*/
+      .cwPNKp h3::selection {
+        background-clip: initial;
+        -webkit-text-fill-color: initial;
+      } /*!sc*/
+      @media only screen and (max-width: 1200px) {
+        .cwPNKp h3 {
+          font-size: 3.8rem;
+        }
+      } /*!sc*/
+      .kKkMTj {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 126rem;
+        margin: 0 auto;
+        gap: 6rem;
+        padding: 0;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .kKkMTj {
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+        }
+      } /*!sc*/
+      .kKkMTj > div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        gap: 5rem;
+        z-index: 1;
+        max-width: 100%;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .kKkMTj > div {
+          -webkit-flex: 1 1 auto;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+          gap: 3.2rem;
+        }
+      } /*!sc*/
+      .kKkMTj > div p > a {
+        color: inherit;
+      } /*!sc*/
+      .kKkMTj h1,
+      .kKkMTj h2,
+      .kKkMTj h3 {
+        font-size: 5rem;
+        line-height: 1.2;
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .kKkMTj h1,
+        .kKkMTj h2,
+        .kKkMTj h3 {
+          font-size: 4rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .kKkMTj h3 {
+        font-size: 6rem;
+        font-weight: 600;
+      } /*!sc*/
+      .kKkMTj h3::selection {
+        background-clip: initial;
+        -webkit-text-fill-color: initial;
+      } /*!sc*/
+      @media only screen and (max-width: 1200px) {
+        .kKkMTj h3 {
+          font-size: 3.8rem;
+        }
+      } /*!sc*/
+      .bklrYZ {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        width: 100%;
+        max-width: 126rem;
+        margin: 0 auto;
+        gap: 6rem;
+        padding: 0;
+        border-radius: 1.6rem;
+        background: #042456;
+        padding: 0;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .bklrYZ {
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .bklrYZ {
+          -webkit-flex-flow: column-reverse;
+          -ms-flex-flow: column-reverse;
+          flex-flow: column-reverse;
+        }
+      } /*!sc*/
+      .bklrYZ > div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+        flex: 1 1 50%;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+        gap: 5rem;
+        z-index: 1;
+        max-width: 100%;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .bklrYZ > div {
+          -webkit-flex: 1 1 auto;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+          gap: 3.2rem;
+        }
+      } /*!sc*/
+      .bklrYZ > div p > a {
+        color: inherit;
+      } /*!sc*/
+      .bklrYZ > div {
+        padding: 6rem;
+      } /*!sc*/
+      .bklrYZ h1,
+      .bklrYZ h2,
+      .bklrYZ h3 {
+        font-size: 5rem;
+        line-height: 1.2;
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .bklrYZ h1,
+        .bklrYZ h2,
+        .bklrYZ h3 {
+          font-size: 4rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .bklrYZ h3 {
+        font-size: 6rem;
+        font-weight: 600;
+      } /*!sc*/
+      .bklrYZ h3::selection {
+        background-clip: initial;
+        -webkit-text-fill-color: initial;
+      } /*!sc*/
+      @media only screen and (max-width: 1200px) {
+        .bklrYZ h3 {
+          font-size: 3.8rem;
+        }
+      } /*!sc*/
+      data-styled.g26[id="sc-1f8a8102-3"] {
+        content: "cwPNKp,kKkMTj,bklrYZ,";
+      } /*!sc*/
+      .dWMBef {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.8rem;
+        margin: 2.6rem auto 0;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .dWMBef {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+        }
+      } /*!sc*/
+      data-styled.g28[id="sc-1f8a8102-5"] {
+        content: "dWMBef,";
+      } /*!sc*/
+      .cktzwh {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        background: #0d3673;
+        box-shadow: 0 2.4rem 2.4rem #042a63;
+        border-radius: 1.2rem;
+        padding: 3.4rem;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .cktzwh {
+          padding: 2.4rem;
+        }
+      } /*!sc*/
+      .cktzwh > span {
+        height: 3.6rem;
+        width: 3.6rem;
+        border-radius: 3.6rem;
+        margin: 0 0 1.6rem;
+        padding: 0;
+        background: #052b65;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: #cae9ff;
+        font-size: 1.8rem;
+        font-weight: 900;
+      } /*!sc*/
+      .cktzwh > img {
+        width: 100%;
+        height: 100%;
+        max-width: 10rem;
+        max-height: 10rem;
+        object-fit: contain;
+        margin: 0 auto 1.6rem;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .cktzwh > img {
+          height: 8rem;
+        }
+      } /*!sc*/
+      .cktzwh > p {
+        font-size: 1.6rem;
+        color: #95baef;
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 1.6rem auto;
+        text-align: center;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+      } /*!sc*/
+      .cktzwh > p > b {
+        font-size: 3.4rem;
+        display: block;
+        color: #cae9ff;
+        background: linear-gradient(
+          45deg,
+          #ffe7e0 0%,
+          #f8dbf4 20%,
+          #c4ddff 60%,
+          #cae9ff 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0 0 2.4rem;
+        width: 100%;
+        text-align: center;
+        line-height: 1;
+      } /*!sc*/
+      .cktzwh > p > b::selection {
+        background-clip: initial;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+      } /*!sc*/
+      .jqehMq {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        background: #0d3673;
+        box-shadow: 0 2.4rem 2.4rem #042a63;
+        border-radius: 1.2rem;
+        padding: 3.4rem;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .jqehMq {
+          padding: 2.4rem;
+        }
+      } /*!sc*/
+      .jqehMq > span {
+        height: 3.6rem;
+        width: 3.6rem;
+        border-radius: 3.6rem;
+        margin: 0 0 1.6rem;
+        padding: 0;
+        background: #052b65;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: #cae9ff;
+        font-size: 1.8rem;
+        font-weight: 900;
+      } /*!sc*/
+      .jqehMq > img {
+        width: 100%;
+        height: 100%;
+        max-width: 6rem;
+        max-height: 10rem;
+        object-fit: contain;
+        margin: 0 auto 1.6rem;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .jqehMq > img {
+          height: 8rem;
+        }
+      } /*!sc*/
+      .jqehMq > p {
+        font-size: 1.6rem;
+        color: #95baef;
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 1.6rem auto;
+        text-align: center;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+      } /*!sc*/
+      .jqehMq > p > b {
+        font-size: 3.4rem;
+        display: block;
+        color: #cae9ff;
+        background: linear-gradient(
+          45deg,
+          #ffe7e0 0%,
+          #f8dbf4 20%,
+          #c4ddff 60%,
+          #cae9ff 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0 0 2.4rem;
+        width: 100%;
+        text-align: center;
+        line-height: 1;
+      } /*!sc*/
+      .jqehMq > p > b::selection {
+        background-clip: initial;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+      } /*!sc*/
+      data-styled.g29[id="sc-1f8a8102-6"] {
+        content: "cktzwh,jqehMq,";
+      } /*!sc*/
+      .liCxnq {
+        display: inline-block;
+        font-size: 2.2rem;
+        color: #405a82;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: left;
+        margin: 0 auto;
+        width: 100%;
+        z-index: 1;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .liCxnq {
+          font-size: 1.8rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .bhclzC {
+        display: inline-block;
+        font-size: 2.2rem;
+        color: #95baef;
+        font-weight: 400;
+        line-height: 1.6;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        z-index: 1;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .bhclzC {
+          font-size: 1.8rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .gqTGys {
+        display: inline-block;
+        font-size: 2.2rem;
+        color: #95baef;
+        font-weight: 400;
+        line-height: 1.6;
+        text-align: center;
+        max-width: 80rem;
+        margin: 0 auto;
+        width: 100%;
+        z-index: 1;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .gqTGys {
+          font-size: 1.8rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .cMpeAI {
+        display: inline-block;
+        font-size: 2.2rem;
+        color: #405a82;
+        font-weight: 400;
+        line-height: 1.6;
+        text-align: center;
+        max-width: 60rem;
+        margin: 0 auto;
+        width: 100%;
+        z-index: 1;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .cMpeAI {
+          font-size: 1.8rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      data-styled.g33[id="sc-1f8a8102-10"] {
+        content: "liCxnq,bhclzC,gqTGys,cMpeAI,";
+      } /*!sc*/
+      .crtnkX {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        max-width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        position: relative;
+        z-index: 0;
+        margin: 0 0 0 9.6rem;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .crtnkX {
+          margin: 4.2rem 0 9rem;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .crtnkX {
+          width: 100%;
+        }
+      } /*!sc*/
+      .crtnkX > a > img,
+      .crtnkX > img {
+        object-fit: contain;
+        max-width: 100%;
+        width: inherit;
+        height: inherit;
+      } /*!sc*/
+      data-styled.g34[id="sc-1f8a8102-11"] {
+        content: "crtnkX,";
+      } /*!sc*/
+      .geJcip {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: max-width;
+        margin: 0 auto;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 12rem;
+        background: #0d3673;
+        box-shadow: 0 2.4rem 2.4rem #042a63;
+        padding: 4.2rem;
+        border-radius: 1.2rem;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .geJcip {
+          gap: 4rem;
+        }
+      } /*!sc*/
+      .geJcip > div {
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        gap: 1.6rem;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .geJcip > div {
+          width: 100%;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          gap: 2.4rem;
+        }
+      } /*!sc*/
+      .geJcip > div > b {
+        font-size: 6rem;
+        font-weight: 400;
+        background: linear-gradient(
+          45deg,
+          #ffe7e0 0%,
+          #f8dbf4 20%,
+          #c4ddff 60%,
+          #cae9ff 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      } /*!sc*/
+      .geJcip > div > b::selection {
+        background-clip: initial;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .geJcip > div > b {
+          font-size: 5rem;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .geJcip > div > b {
+          text-align: center;
+        }
+      } /*!sc*/
+      .geJcip > div > i {
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #95baef;
+      } /*!sc*/
+      data-styled.g35[id="sc-1f8a8102-12"] {
+        content: "geJcip,";
+      } /*!sc*/
+      .jwRE {
+        display: grid;
+        max-width: 110rem;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 5.6rem auto 0;
+        padding: 0;
+        gap: 7rem 10rem;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .jwRE {
+          grid-template-columns: 1fr;
+        }
+      } /*!sc*/
+      data-styled.g36[id="sc-1f8a8102-13"] {
+        content: "jwRE,";
+      } /*!sc*/
+      .gTaMHc {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .gTaMHc {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .gTaMHc::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/lowPrice.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .gTaMHc::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .gTaMHc > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .gTaMHc > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .gTaMHc > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .gTaMHc > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .gTaMHc > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      .iFYLix {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iFYLix {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .iFYLix::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/liquidity.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iFYLix::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .iFYLix > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .iFYLix > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iFYLix > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .iFYLix > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iFYLix > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      .foHCdv {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .foHCdv {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .foHCdv::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/mev.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .foHCdv::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .foHCdv > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .foHCdv > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .foHCdv > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .foHCdv > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .foHCdv > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      .jYHAXe {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .jYHAXe {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .jYHAXe::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/savings.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .jYHAXe::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .jYHAXe > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .jYHAXe > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .jYHAXe > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .jYHAXe > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .jYHAXe > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      .fUWyFB {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .fUWyFB {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .fUWyFB::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/sun.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .fUWyFB::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .fUWyFB > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .fUWyFB > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .fUWyFB > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .fUWyFB > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .fUWyFB > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      .iRiNcc {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iRiNcc {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .iRiNcc::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/gas.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iRiNcc::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .iRiNcc > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .iRiNcc > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iRiNcc > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .iRiNcc > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .iRiNcc > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      .hSqcTj {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .hSqcTj {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .hSqcTj::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/list.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .hSqcTj::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .hSqcTj > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .hSqcTj > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .hSqcTj > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .hSqcTj > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .hSqcTj > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      .wxIWq {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .wxIWq {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      .wxIWq::before {
+        content: "";
+        height: 3.6rem;
+        width: 3.6rem;
+        display: block;
+        margin: -0.1rem 0 0;
+        background: url(images/icons/shield.svg) no-repeat top/contain;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .wxIWq::before {
+          margin: 0 auto 2.4rem;
+        }
+      } /*!sc*/
+      .wxIWq > span {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        gap: 1.2rem;
+      } /*!sc*/
+      .wxIWq > span > b {
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 600;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .wxIWq > span > b {
+          font-size: 2.6rem;
+          text-align: center;
+        }
+      } /*!sc*/
+      .wxIWq > span > p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        color: #95baef;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .wxIWq > span > p {
+          text-align: center;
+        }
+      } /*!sc*/
+      data-styled.g37[id="sc-1f8a8102-14"] {
+        content: "gTaMHc,iFYLix,foHCdv,jYHAXe,fUWyFB,iRiNcc,hSqcTj,wxIWq,";
+      } /*!sc*/
+      .guWGbu {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .guWGbu {
+          width: 100%;
+        }
+      } /*!sc*/
+      .guWGbu > ol {
+        margin: auto;
+        padding: 0;
+        display: grid;
+        list-style: none;
+        gap: 3rem;
+        grid-template-columns: repeat(3, 1fr);
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .guWGbu > ol {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          margin: 0 auto 5.6rem;
+        }
+      } /*!sc*/
+      .guWGbu > ol > li {
+        padding: 0;
+        margin: 0;
+        width: 12rem;
+        height: 12rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .guWGbu > ol > li {
+          width: 9rem;
+          height: 9rem;
+        }
+      } /*!sc*/
+      .guWGbu > ol > li > a {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        padding: 0;
+        background: #042a63;
+        border-radius: 6rem;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: -webkit-transform 0.8s ease-in-out;
+        -webkit-transition: transform 0.8s ease-in-out;
+        transition: transform 0.8s ease-in-out;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .guWGbu > ol > li > a {
+          border-radius: 4.5rem;
+        }
+      } /*!sc*/
+      .guWGbu > ol > li > a:hover {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+      } /*!sc*/
+      .guWGbu > ol > li > a > img {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        max-width: 65%;
+        max-height: 65%;
+      } /*!sc*/
+      data-styled.g40[id="sc-1f8a8102-17"] {
+        content: "guWGbu,";
+      } /*!sc*/
+      .hHKVSH {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1px;
+        height: 1px;
+        display: block;
+        background: transparent;
+      } /*!sc*/
+      data-styled.g41[id="sc-8b4a47cf-0"] {
+        content: "hHKVSH,";
+      } /*!sc*/
+      .fCPbmU {
+        z-index: 10;
+        width: 100%;
+        height: 7.2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: transparent;
+        padding: 0 5.6rem;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        -webkit-transition: background 0.2s ease-in-out, height 0.2s ease-in-out;
+        transition: background 0.2s ease-in-out, height 0.2s ease-in-out;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .fCPbmU {
+          padding: 0 1.6rem;
+          height: 6rem;
+        }
+      } /*!sc*/
+      data-styled.g42[id="sc-8b4a47cf-1"] {
+        content: "fCPbmU,";
+      } /*!sc*/
+      .dmmAYS {
+        width: 100%;
+        max-width: 126rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0 auto;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      } /*!sc*/
+      data-styled.g43[id="sc-8b4a47cf-2"] {
+        content: "dmmAYS,";
+      } /*!sc*/
+      .egaItL {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #052b65;
+        padding: 0;
+        margin: 0;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .egaItL {
+          display: none;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          background: #052b65;
+          color: #95baef;
+          -webkit-box-pack: start;
+          -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          -webkit-align-items: flex-start;
+          -webkit-box-align: flex-start;
+          -ms-flex-align: flex-start;
+          align-items: flex-start;
+          -webkit-align-content: flex-start;
+          -ms-flex-line-pack: start;
+          align-content: flex-start;
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          gap: 3rem;
+          overflow-y: auto;
+        }
+      } /*!sc*/
+      .egaItL + a > span {
+        background: transparent;
+        border: 0.1rem solid #052b65;
+        color: #052b65;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .egaItL + a > span {
+          margin: 0 2.4rem 0 auto;
+          min-height: 3.2rem;
+          border-radius: 1rem;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .egaItL + a > span {
+          margin: 0 auto;
+        }
+      } /*!sc*/
+      .egaItL > li:not(:last-of-type) {
+        margin: 0 3.6rem 0 0;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .egaItL > li:not(:last-of-type) {
+          margin: 0 0 3.6rem;
+          line-height: 1;
+        }
+      } /*!sc*/
+      .egaItL > li {
+        color: inherit;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .egaItL > li {
+          margin: 0 0 3.6rem;
+          line-height: 1;
+          width: 100%;
+          text-align: center;
+        }
+      } /*!sc*/
+      .egaItL > li > a {
+        font-size: inherit;
+        color: inherit;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        font-weight: 300;
+      } /*!sc*/
+      .egaItL > li > a:hover {
+        color: inherit;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .egaItL > li > a {
+          color: #cae9ff;
+        }
+        .egaItL > li > a:hover {
+          color: #cae9ff;
+        }
+      } /*!sc*/
+      data-styled.g44[id="sc-8b4a47cf-3"] {
+        content: "egaItL,";
+      } /*!sc*/
+      .enplmG {
+        display: none;
+        position: fixed;
+        right: 1.6rem;
+        top: 1.6rem;
+        color: inherit;
+        background: transparent;
+        border: 0;
+        opacity: 0.7;
+        -webkit-transition: opacity 0.2s ease-in-out;
+        transition: opacity 0.2s ease-in-out;
+      } /*!sc*/
+      .enplmG:hover {
+        opacity: 1;
+      } /*!sc*/
+      .enplmG::before {
+        content: "✕";
+        display: block;
+        font-size: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+      } /*!sc*/
+      @media only screen and (max-width: 736px) {
+        .enplmG::before {
+          font-size: 3.2rem;
+          color: inherit;
+        }
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .enplmG {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      data-styled.g45[id="sc-8b4a47cf-4"] {
+        content: "enplmG,";
+      } /*!sc*/
+      .eiWDzE {
+        display: none;
+        background: transparent;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 1.6rem;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        border: none;
+        height: 4.2rem;
+        width: 4.2rem;
+        padding: 0;
+      } /*!sc*/
+      .eiWDzE::before {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        content: "";
+        background: url(/images/icons/menu.svg) no-repeat center/contain;
+        width: 62%;
+        height: 100%;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .eiWDzE {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      } /*!sc*/
+      data-styled.g46[id="sc-8b4a47cf-5"] {
+        content: "eiWDzE,";
+      } /*!sc*/
+      .dRMhvg {
+        width: 12.2rem;
+        height: 3.8rem;
+        background: url(/images/logo.svg) no-repeat center/contain;
+        cursor: pointer;
+        z-index: 10;
+      } /*!sc*/
+      @media only screen and (max-width: 1024px) {
+        .dRMhvg {
+          background: url(/images/logo-icon.svg) no-repeat center/contain;
+          width: 3.6rem;
+          height: 3.2rem;
+          background-size: contain;
+          background-position: left;
+        }
+      } /*!sc*/
+      data-styled.g47[id="sc-8b4a47cf-6"] {
+        content: "dRMhvg,";
+      } /*!sc*/
+      html,
+      body {
+        background-color: #052b65;
+      } /*!sc*/
+      data-styled.g48[id="sc-global-dcYGEO1"] {
+        content: "sc-global-dcYGEO1,";
+      } /*!sc*/
+      .eYrsKE {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+      } /*!sc*/
+      data-styled.g49[id="sc-8813e6f2-0"] {
+        content: "eYrsKE,";
+      } /*!sc*/
+      .fVLGWd {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-align-items: flex-start;
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        gap: 0;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+      } /*!sc*/
+      data-styled.g50[id="sc-8813e6f2-1"] {
+        content: "fVLGWd,";
+      } /*!sc*/
+      .iVougz {
+        font-size: 1.6rem;
+        padding: 14rem 0 5.6rem;
+        min-height: 80rem;
+        background-color: hsla(142, 0%, 100%, 1);
+        background-image: radial-gradient(
+            at 5% 70%,
+            hsla(204, 100%, 89%, 1) 0px,
+            transparent 50%
+          ),
+          radial-gradient(
+            at 47% 40%,
+            hsla(214, 100%, 88%, 1) 0px,
+            transparent 50%
+          ),
+          radial-gradient(
+            at 73% 3%,
+            hsla(308, 67%, 91%, 1) 0px,
+            transparent 50%
+          ),
+          radial-gradient(
+            at 44% 13%,
+            hsla(13, 100%, 93%, 1) 0px,
+            transparent 50%
+          ),
+          radial-gradient(
+            at 61% 70%,
+            hsla(204, 100%, 89%, 1) 0px,
+            transparent 50%
+          ),
+          radial-gradient(
+            at 32% 81%,
+            hsla(204, 100%, 89%, 1) 0px,
+            transparent 50%
+          ),
+          radial-gradient(
+            at 19% 39%,
+            hsla(204, 100%, 89%, 1) 0px,
+            transparent 50%
+          );
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      } /*!sc*/
+      data-styled.g52[id="sc-8813e6f2-3"] {
+        content: "iVougz,";
+      } /*!sc*/
+    </style>
+  </head>
+  <body>
+    <div id="__next">
+      <div class="sc-8813e6f2-0 eYrsKE">
+        <div class="sc-8b4a47cf-0 hHKVSH"></div>
+        <header class="sc-8b4a47cf-1 fCPbmU">
+          <div class="sc-8b4a47cf-2 dmmAYS">
+            <a href="/"><div class="sc-8b4a47cf-6 dRMhvg"></div></a>
+            <ol class="sc-8b4a47cf-3 egaItL interact-button">
+              <li><a >DAOs</a></li>
+              <li><a >Widget</a></li>
+              <li><a>Tofi AMM</a></li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://mevblocker.io/?utm_content=header-link-mevblocker&amp;utm_medium=web&amp;utm_source=Tofi.fi"
+                  ><span rel="noopener">MEV Blocker</span></a
+                >
+              </li>
+              <button class="sc-8b4a47cf-4 enplmG"></button>
+            </ol>
+            <a
+              target="_blank"
+              rel="noopener nofollow"
+              
+              ><span font-size="1.6" class="sc-b143af87-0 eEALFk blank-button interact-button"
+                >Trade on Tofi Swap</span
+              ></a
+            ><button class="sc-8b4a47cf-5 eiWDzE"></button>
+          </div>
+        </header>
+        <main class="sc-8813e6f2-1 sc-8813e6f2-3 fVLGWd iVougz">
+          <section class="sc-1f8a8102-2 gZgqjy">
+            <div class="sc-1f8a8102-3 cwPNKp">
+              <div>
+                <h1 font-size="6.8" class="sc-1f8a8102-0 cXkEQm">
+                  Better than the best prices
+                </h1>
+                <p color="#405A82" class="sc-1f8a8102-10 liCxnq">
+                  Tofi Protocol finds the lowest price for your trade across all
+                  exchanges and aggregators, such as Uniswap and 1inch - and
+                  protects you from MEV, unlike the others.
+                </p>
+                <div class="sc-b143af87-1 irgnaj">
+                  <a
+                    target="_blank"
+                    rel="noopener nofollow"
+                    
+                    ><span class="sc-b143af87-0 bJpilA blank-button interact-button"
+                      >Start trading</span
+                    ></a
+                  ><a class="sc-b143af87-0 cANjis interact-button" 
+                    >Start building</a
+                  >
+                </div>
+              </div>
+              <div class="sc-1f8a8102-11 crtnkX">
+                <img src="images/hero-image.svg" alt="Tofi Protocol" />
+              </div>
+            </div>
+          </section>
+          <section id="about" class="sc-1f8a8102-2 iaUpaE">
+            <div class="sc-1f8a8102-3 kKkMTj">
+              <div class="container">
+                <h3>The smartest way to trade.</h3>
+                <ol class="sc-1f8a8102-13 jwRE">
+                  <li class="sc-1f8a8102-14 gTaMHc">
+                    <span
+                      ><b>Lower prices thanks to Tofis.</b>
+                      <p>
+                        Tofi Protocol matches trades peer-to-peer where possible,
+                        cutting out the middleman and saving you money. (We call
+                        this a Coincidence of Wants - Tofi!)
+                      </p></span
+                    >
+                  </li>
+                  <li class="sc-1f8a8102-14 iFYLix">
+                    <span
+                      ><b>Never pay more than the cheapest alternative.</b>
+                      <p>
+                        No need to compare prices on 1inch, Uniswap or another
+                        exchange. Tofi Protocol searches them all for you, so you
+                        get the best price available.
+                      </p></span
+                    >
+                  </li>
+                  <li class="sc-1f8a8102-14 foHCdv">
+                    <span
+                      ><b>Protection from MEV.</b>
+                      <p>
+                        Tofi Protocol is the industry leader in protecting users
+                        from frontrunning and sandwich attacks, which lose
+                        traders thousands of dollars every day. It does this by
+                        matching trades peer-to-peer, and leveraging batch
+                        auctions [→] so trade order becomes irrelevant.<!-- -->
+                      </p></span
+                    >
+                  </li>
+                  <li class="sc-1f8a8102-14 jYHAXe">
+                    <span
+                      ><b>Keep your surplus.</b>
+                      <p>
+                        Tofi Protocol gives you extra tokens if the price moves
+                        in your favor after you’ve placed an order.
+                      </p></span
+                    >
+                  </li>
+                  <li class="sc-1f8a8102-14 fUWyFB">
+                    <span
+                      ><b>Never pay for failed transactions.</b>
+                      <p>
+                        Tofi Protocol never charges for failed transactions –
+                        unlike almost every other DEX or aggregator.
+                      </p></span
+                    >
+                  </li>
+                  <li class="sc-1f8a8102-14 iRiNcc">
+                    <span
+                      ><b>ETH-less trading.</b>
+                      <p>
+                        Tofi Protocol takes its fees in the sell token, so you
+                        can save your precious ETH.
+                      </p></span
+                    >
+                  </li>
+                  <li class="sc-1f8a8102-14 hSqcTj">
+                    <span
+                      ><b>Execute many orders at once.</b>
+                      <p>
+                        Never wait for one trade to finish before placing
+                        another.
+                      </p></span
+                    >
+                  </li>
+                  <li class="sc-1f8a8102-14 wxIWq">
+                    <span
+                      ><b>Safe and reliable.</b>
+                      <p>
+                        Tofi Protocol was incubated by Gnosis, built by a
+                        transparent and trusted community of engineers that keep
+                        security top-of-mind at all times.
+                      </p></span
+                    >
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+          <section class="sc-1f8a8102-2 hndzXI container">
+            <div class="sc-1f8a8102-3 cwPNKp">
+              <div>
+                <h3>Cutting-edge technology</h3>
+                <p class="sc-1f8a8102-10 bhclzC">
+                  Tofi Protocol batches orders, matches Coincidences of Wants (<a
+                    href="https://docs.Tofi.fi/Tofi-protocol/concepts/how-it-works/coincidence-of-wants"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Tofis</a
+                  >), and sources excess volume from all DEXs and DEX
+                  aggregators. That&#x27;s how the protocol makes sure you
+                  always get the best price for your trade.
+                </p>
+                <div class="sc-1f8a8102-5 dWMBef">
+                  <div class="sc-1f8a8102-6 cktzwh">
+                    <span>1</span
+                    ><img src="images/icons/funnel.svg" alt="funnel" />
+                    <p>
+                      <b>Batch</b> Tofi Protocol collects orders into “batches”
+                      every 30 seconds. This is done off-chain, which has a few
+                      benefits – you won’t pay if your trade fails, and the fees
+                      are collected in your sell token, not ETH.<!-- -->
+                    </p>
+                  </div>
+                  <div class="sc-1f8a8102-6 cktzwh">
+                    <span>2</span
+                    ><img src="images/icons/p2p-v2.svg" alt="Peer to Peer" />
+                    <p>
+                      <b>Match</b>Tofi Protocol&#x27;s network of solving
+                      algorithms (“solvers”) scans each batch for Coincidences
+                      of Wants (i.e. traders who want what each other has).
+                      These “Tofis” are matched peer-to-peer, so everyone gets a
+                      better price and no one pays unnecessary AMM fees.<!-- -->
+                    </p>
+                  </div>
+                  <div class="sc-1f8a8102-6 cktzwh">
+                    <span>3</span
+                    ><img src="images/icons/network.svg" alt="batch auction" />
+                    <p>
+                      <b>Search</b> Tofi Protocol&#x27;s solvers compete to find
+                      the best liquidity source for your trade across all
+                      decentralized exchanges and aggregators. So the worst
+                      price you&#x27;ll get with Tofi Protocol is the best price
+                      available elsewhere.<!-- -->
+                    </p>
+                  </div>
+                  <div class="sc-1f8a8102-6 jqehMq">
+                    <span>4</span
+                    ><img
+                      src="images/icons/shield2.svg"
+                      alt="On-chain MEV protection"
+                    />
+                    <p>
+                      <b>Settle</b> Tofi Protocol submits the batches on-chain
+                      and hides them from the public mempool, so your trade is
+                      protected from manipulation (frontrunning and other forms
+                      of MEV) by miners and bots.<!-- -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="sc-1f8a8102-2 hndzXI">
+            <div class="sc-1f8a8102-3 cwPNKp">
+              <div>
+                <h3>Serious volume, serious savings.</h3>
+                <p class="sc-1f8a8102-10 gqTGys">
+                  Whether you are a whale, a dolphin or a prawn, you can always
+                  trust Tofi Protocol to find the lowest prices possible and
+                  protect you from MEV.
+                </p>
+                <div class="sc-1f8a8102-12 geJcip">
+                  <div>
+                    <b>$<!-- -->40B+</b><i>Total volume traded (USD)</i>
+                  </div>
+                  <div>
+                    <b data-last-modified="2022-09-23T09:58:49.628Z">385K+</b
+                    ><i>All time trades</i>
+                  </div>
+                  <div>
+                    <b data-last-modified="2022-09-23T09:58:49.628Z"
+                      >$<!-- -->82M+</b
+                    ><i>Surplus saved for users</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="sc-1f8a8102-2 iaUpaE container" id="developers">
+            <div class="sc-1f8a8102-3 bklrYZ">
+              <span class="sc-1f8a8102-17 guWGbu"
+                ><ol>
+                  <li>
+                    <a
+                      href="https://balancer.fi/"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><img src="/images/icons/balancer.svg" alt="Balancer"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://safe.global/"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><img src="/images/icons/safe.svg" alt="Safe"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://swapr.eth.limo/"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><img src="/images/icons/swapr.svg" alt="Swapr"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://shapeshift.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><img src="/images/icons/shapeshift.svg" alt="Shapeshift"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://yearn.finance/"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><img src="/images/icons/yearn.svg" alt="Yearn finance"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://aura.finance/"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><img src="/images/icons/aura.svg" alt="Aura finance"
+                    /></a>
+                  </li></ol
+              ></span>
+              <div>
+                <h3>Quick and simple integration</h3>
+                <p class="sc-1f8a8102-10 bhclzC">
+                  Join a growing list of partners that have built a better
+                  experience for their users by integrating Tofi Protocol.
+                </p>
+                <div class="sc-b143af87-1 diHOXl">
+                  <a
+                    class="sc-b143af87-0 kMeipE"
+                    href="https://docs.Tofi.fi"
+                    target="_blank"
+                    rel="noopener nofollow"
+                    >Explore docs</a
+                  ><a
+                    class="sc-b143af87-0 kMeipE"
+                    href="mailto:bd@Tofi.fi"
+                    target="_blank"
+                    rel="noopener nofollow"
+                    >Talk to us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="community" class="sc-1f8a8102-2 oPYJP">
+            <div class="sc-1f8a8102-3 cwPNKp">
+              <div>
+                <h3>Join the Tofimunity</h3>
+                <p color="#405A82" class="sc-1f8a8102-10 cMpeAI">
+                  Learn more about Tofi Protocol, get support, and have your say
+                  in shaping the future of decentralized finance.
+                </p>
+                <ol color="#052B65" class="sc-92805b69-0 eevRaJ">
+                  <li>
+                    <a
+                      
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      ><b>Twitter</b></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      ><b>Discord</b></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      ><b>GitHub</b></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://forum.Tofi.fi/"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      ><b>Forum</b></a
+                    >
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="sc-eb63ca1e-0 jEAXKJ">
+          <div class="sc-eb63ca1e-1 fAoQhy">
+            <div class="sc-eb63ca1e-3 iA-DOci">
+              <b>Overview</b>
+              <ol class="sc-eb63ca1e-4 kkRfWv interact-button">
+                <li><a >For DAOs</a></li>
+                <li><a >Widget</a></li>
+                <li>
+                  <a 
+                    >Widget Terms and Conditions</a
+                  >
+                </li>
+                <li><a>Tofi AMM</a></li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://mevblocker.io/"
+                    >MEV Blocker</a
+                  >
+                </li>
+                <li><a >Careers</a></li>
+                <li><a >Refer-to-Earn</a></li>
+                <li>
+                  <a target="_blank" rel="noopener" 
+                    >Grants</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    ><span rel="noopener">Explorer</span></a
+                  >
+                </li>
+              </ol>
+            </div>
+            <div class="sc-eb63ca1e-3 iA-DOci">
+              <b>Tofi Protocol</b>
+              <ol class="sc-eb63ca1e-4 kkRfWv">
+                <li><a >About</a></li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    ><span rel="noopener">Tofi Swap</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    >Analytics</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    ><span rel="noopener">Tofi Swap FAQ</span></a
+                  >
+                </li>
+                <li><a href="/tokens">Tokens</a></li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    >Brand Kit</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    ><span rel="noopener">Terms and Conditions</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    ><span rel="noopener">Privacy Policy</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    ><span rel="noopener">Cookie Policy</span></a
+                  >
+                </li>
+              </ol>
+            </div>
+            <div class="sc-eb63ca1e-3 iA-DOci">
+              <b>Developers</b>
+              <ol class="sc-eb63ca1e-4 kkRfWv">
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    ><span rel="noopener">Documentation</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://api.Tofi.fi/docs"
+                    >API Documentation</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    
+                    >GitHub</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    href="https://github.com/gnosis/gp-v2-contracts/raw/main/audits/GnosisProtocolV2May2021.pdf"
+                    >Audit 1: G0 Group</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    href="https://github.com/gnosis/gp-v2-contracts/raw/main/audits/%5BTofiswap_10122021%5DSCAudit_Report_2.pdf"
+                    >Audit 2: Hacken</a
+                  >
+                </li>
+              </ol>
+            </div>
+            <div class="sc-eb63ca1e-3 iA-DOci">
+              <b>Tofimunity</b>
+              <ol class="sc-eb63ca1e-4 kkRfWv">
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://snapshot.org/#/Tofi.eth"
+                    >Governance</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" rel="noopener" href="https://forum.Tofi.fi"
+                    >Forum</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://medium.com/@Tofi-protocol"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    
+                    >Discord</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    href="https://app.chainpatrol.io/Tofi"
+                    >Security portal</a
+                  >
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="sc-eb63ca1e-2 ddXtQd">
+            <a href="/"><div class="sc-eb63ca1e-5 zxECV"></div></a>
+            <ol class="sc-92805b69-0 htCPmv">
+              <li>
+                <a
+                  
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                ></a>
+              </li>
+              <li>
+                <a
+                  
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                ></a>
+              </li>
+              <li>
+                <a
+                  
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://forum.Tofi.fi/"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                ></a>
+              </li>
+            </ol>
+            <ol class="sc-eb63ca1e-6 RsVSN">
+              <li>
+                ©Tofi Protocol - 2024
+              </li>
+            </ol>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "metricsData": {
+              "totalVolume": "40B+",
+              "tradesCount": "385K+",
+              "tradesCountLastModified": "2022-09-23T09:58:49.628Z",
+              "totalSurplus": "82M+",
+              "totalSurplusLastModified": "2022-09-23T09:58:49.628Z"
+            },
+            "siteConfigData": {
+              "title": "Tofi Protocol",
+              "metatitle_tokenDetail": "Live Token Price Chart \u0026 Metrics",
+              "description": "Tofi Protocol finds the lowest prices from all decentralized exchanges and DEX aggregators \u0026 saves you more with p2p trading and protection from MEV ",
+              "descriptionShort": "The smartest way to trade",
+              "url": {
+                "root": "https://Tofi.fi",
+                "swap": "https://swap.Tofi.fi/#/1/swap/DAI/Tofi?sellAmount=500",
+                "docs": "https://docs.Tofi.fi",
+                "api": "https://api.Tofi.fi/mainnet",
+                "apiDocs": "https://api.Tofi.fi/docs",
+                "daos": "/daos",
+                "Tofiamm": "/Tofi-amm",
+                "widget": "/widget",
+                "widgetTnC": "/widget/terms-and-conditions",
+                "careers": "/careers",
+                "widgetConfigurator": "widget.Tofi.fi",
+                "analytics": "https://dune.com/Tofiprotocol/Tofiswap",
+                "explorer": "https://explorer.Tofi.fi",
+                "securityPortal": "https://app.chainpatrol.io/Tofi",
+                "grants": "https://grants.Tofi.fi",
+                "mevBlocker": "https://mevblocker.io/"
+              },
+              "greenhouse": {
+                "api": "https://boards-api.greenhouse.io/v1/boards/Tofiswap/jobs?content=true"
+              },
+              "social": {
+                "twitter": {
+                  "label": "Twitter",
+                  "account": "@TofiSwap",
+                  "url": "https://twitter.com/TofiSwap"
+                },
+                "discord": {
+                  "label": "Discord",
+                  "url": "https://discord.com/invite/Tofiprotocol"
+                },
+                "github": {
+                  "label": "GitHub",
+                  "url": "https://github.com/Tofiprotocol/"
+                },
+                "forum": { "label": "Forum", "url": "https://forum.Tofi.fi/" }
+              },
+              "utm": { "utmSource": "Tofi.fi", "utmMedium": "web" },
+              "tokenDisclaimer": "IMPORTANT DISCLAIMER: The information presented on the Interface, including hyperlinked sites, associated applications, forums, blogs, social media accounts, and other platforms, serves as general information sourced from third-party providers. We want to emphasise that we do not provide any warranties regarding the accuracy or up-to-dateness of the content. None of the content should be interpreted as financial, tax, legal, or any other type of advice. Your use or reliance on the content is entirely at your own discretion and risk. Before making any decisions, it is crucial that you undertake your own research, review, analysis, and verification of our content. Trading carries significant risks and can result in substantial losses, so it is advisable to consult your own legal, financial, tax, or other professional advisors prior to making any decisions. None of the content on the Interface is intended as a solicitation or offer."
+            }
+          },
+          "__N_SSG": true
+        },
+        "page": "/",
+        "query": {},
+        "buildId": "t45qxBTSZwkvlXyAvUOXh",
+        "isFallback": false,
+        "isExperimentalCompile": false,
+        "gsp": true,
+        "scriptLoader": []
+      }
+    </script>
+  </body>
+</html>

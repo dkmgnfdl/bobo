@@ -1,0 +1,73 @@
+(self.__BUILD_MANIFEST = (function (e, s, a, c) {
+  return {
+    __rewrites: { afterFiles: [], beforeFiles: [], fallback: [] },
+    "/": [e, s, a, "static/chunks/pages/index-7c767e919b79b1c8.js"],
+    "/404": [e, s, "static/chunks/pages/404-d52e528ec504b821.js"],
+    "/_error": ["static/chunks/pages/_error-a850028ca35bcfb4.js"],
+    "/careers": [e, s, "static/chunks/pages/careers-a9eb887d3052089c.js"],
+    "/careers/refer-to-earn": [
+      e,
+      s,
+      "static/chunks/pages/careers/refer-to-earn-15e9e3adafc23283.js",
+    ],
+    "/cow-amm": [e, s, a, "static/chunks/pages/cow-amm-41338a562c2cc4eb.js"],
+    "/daos": [
+      e,
+      "static/chunks/940-71950dcfaf4d2a19.js",
+      s,
+      a,
+      "static/css/f3ef0ac1b9bac19e.css",
+      "static/chunks/pages/daos-0334c5c2b66fd92f.js",
+    ],
+    "/learn": [e, s, a, c, "static/chunks/pages/learn-7d3b2286154bbdde.js"],
+    "/learn/articles/[articleSlug]": [
+      e,
+      s,
+      c,
+      "static/chunks/pages/learn/articles/[articleSlug]-a5255de774a7cffa.js",
+    ],
+    "/learn/categories/[categorySlug]": [
+      e,
+      s,
+      a,
+      c,
+      "static/chunks/pages/learn/categories/[categorySlug]-59ca5891b23749f8.js",
+    ],
+    "/tokens": [e, s, "static/chunks/pages/tokens-2ad24631958888b7.js"],
+    "/tokens/[tokenId]": [
+      e,
+      "static/chunks/885-5ff73040b533aeab.js",
+      s,
+      "static/chunks/pages/tokens/[tokenId]-c63c97cb9a96cdf6.js",
+    ],
+    "/widget": [e, s, a, "static/chunks/pages/widget-14da7c98598a32fa.js"],
+    "/widget/terms-and-conditions": [
+      e,
+      s,
+      "static/chunks/pages/widget/terms-and-conditions-260778b7918e9b2c.js",
+    ],
+    sortedPages: [
+      "/",
+      "/404",
+      "/_app",
+      "/_error",
+      "/careers",
+      "/careers/refer-to-earn",
+      "/cow-amm",
+      "/daos",
+      "/learn",
+      "/learn/articles/[articleSlug]",
+      "/learn/categories/[categorySlug]",
+      "/tokens",
+      "/tokens/[tokenId]",
+      "/widget",
+      "/widget/terms-and-conditions",
+    ],
+  };
+})(
+  "static/chunks/596-1c6ab9414c0d19be.js",
+  "static/chunks/624-6a76e6f508829850.js",
+  "static/chunks/489-5015b90becefa5a3.js",
+  "static/chunks/231-68eb02f0d3ab8042.js"
+)),
+  self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();
